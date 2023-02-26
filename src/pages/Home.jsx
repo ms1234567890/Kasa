@@ -1,11 +1,15 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Header from "../components/Header"
+import Banner from "../components/Banner";
+import bannerHome from "../assets/images/Banner.png";
+import Gallery from "../components/Gallery"
 
 const Home = () => {
   return (
-    <div>
-      <Navigation />
-      <p> lofofof </p>
+    <div className="Home">
+          <Header />
+          <Banner image={bannerHome} texte="Chez vous, partout et ailleurs"/>
+          <Gallery />
     </div>
   )
 }

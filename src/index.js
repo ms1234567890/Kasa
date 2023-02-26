@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Root from "./routes/root";
+import Root from "./routes/Root";
 import ErrorPage from "./pages/Error";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

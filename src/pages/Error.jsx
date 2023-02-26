@@ -1,17 +1,15 @@
-import { useRouteError } from "react-router-dom";
+import React from "react";
+// import {Link} from "react-router-dom"
+import  '../assets/css/Error.css'
+import Error from "../components/Error";
 
-export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
 
-  return (
-    <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-      <p>
-        <i>{error.statusText || error.message}</i>
-      </p>
-    </div>
-  );
+function PageNotFound() {
+    return (
+        <div className="Home">
+        <Error />
+        </div>
+    )
 }
 
+export default PageNotFound
