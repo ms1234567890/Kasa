@@ -9,8 +9,7 @@
     border-radius: 25px;
     height: 100%;
     object-fit: cover;
-    width: 100%;
-    margin: 20px;
+    width: 95%;
   }
   
   .banner-overlay {
@@ -21,8 +20,7 @@
     opacity: 0.3;
     position: absolute;
     top: 0;
-    width: 100%;
-    margin: 20px;
+    width: 95%;
   }
   
   .banner-txt {

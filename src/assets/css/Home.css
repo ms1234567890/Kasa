@@ -2,6 +2,19 @@ body {
     margin: 0;
 }
 
+.home {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
 .gallery {
     margin: 5%;
     background: #F7F7F7;

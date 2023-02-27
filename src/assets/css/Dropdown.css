@@ -21,17 +21,17 @@
     margin: 5px 10px;
   }
   
-  .fleche-dropdown {
+  .arrow-dropdown {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
     width: 100%;
   }
-  .fleche-dropdown:hover {
+  .arrow-dropdown:hover {
       cursor: pointer;
   }
   
-  .fleche-dropdown.true {
+  .arrow-dropdown.true {
     justify-content: start;
     transform: rotate(-180deg);
   }

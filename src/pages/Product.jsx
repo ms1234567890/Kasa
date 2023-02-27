@@ -1,11 +1,18 @@
 import React from "react";
-import Navigation from "../components/Header";
+import  '../assets/css/Product.css'
+import Carrousel from "../components/Carrousel";
+import ProductTitle from "../components/ProductTitle";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Product = () => {
   return (
     <div>
-      <Navigation />
+      <Header />
+      <Carrousel />
+      <ProductTitle />
       Accueil
+      <Footer />
     </div>
   )
 }

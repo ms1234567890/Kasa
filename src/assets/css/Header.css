@@ -1,22 +1,7 @@
-.home {
-    position: relative;
-    width: 100%;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0%;
-    padding: 0%;
-}
 
 .header {
-
-    margin-top: 40px;
-    margin-bottom: 50px;
-
+    margin: 40px;
     width: 992px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,7 +13,6 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 30%;
-
 }
 
 .navigation a {
