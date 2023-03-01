@@ -1,5 +1,5 @@
 //CSS//
-import './App.css';
+import './assets/css/App.css';
 //Frameworks//
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 
@@ -12,8 +12,8 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import Error from "./pages/Error";
 
-//function who's find the  ID URL and compare if the ID of KASA is the same
-function ProductView() {
+
+function SelectedProduct() {
   const { id } = useParams();
   let product = kasa.find(i => i.id === id)
   if (!product) {
@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>} />
-        <Route path="/Product/:id" element={<ProductView />} />
+        <Route path="/apartments/:id" element={<SelectedProduct />} />
         <Route path="*" element={<Error/>} />
       </Routes>
      </BrowserRouter>

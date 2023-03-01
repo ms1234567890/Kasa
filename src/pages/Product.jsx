@@ -2,19 +2,19 @@ import React from "react";
 import  '../assets/css/Product.css'
 import Carrousel from "../components/Carrousel";
 import ProductTitle from "../components/ProductTitle";
+import ProductDescription from "../components/ProductDescription";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Product = () => {
+function Product() {
   return (
-    <div>
-      <Header />
-      <Carrousel />
-      <ProductTitle />
-      Accueil
-      <Footer />
-    </div>
-  )
-}
+      <div className="home">
+          <Header />
+          <Carrousel />
+          <ProductTitle />    
+          <ProductDescription />
+          <Footer />      
+      </div>
+)}
 
-export default Product;
+export default Product

@@ -1,12 +1,11 @@
 
 .header {
     margin: 40px;
-    width: 992px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 .navigation {
     display: flex;
