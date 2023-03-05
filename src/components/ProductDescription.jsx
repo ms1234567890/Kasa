@@ -11,14 +11,14 @@ function ProductDescription () {
     const productEquipments = [];
     if (Array.isArray(product.equipments)) {
         for (let i = 0; i < product.equipments.length; i++) {
-            productEquipments.push(<li key={i}>{product.equipments[i]}</li>);
+            productEquipments.push(<li key={i}> {product.equipments[i]} </li>);
         }
     }
 
     return (
             <div className="product-dropdown">
                 <Dropdown titre='Description' description={product.description} />
-                <Dropdown titre='Equipements' description={product.equipments} />
+                <Dropdown titre='Equipements' description={productEquipments} />
             </div>
     )
 }
