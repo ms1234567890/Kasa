@@ -16,10 +16,10 @@ function ProductDescription () {
     }
 
     return (
-        <div className="dropdown">
-            <Dropdown titre='Description' description={product.description} />
-            <Dropdown titre='Equipements' description={product.equipments} />
-        </div>
+            <div className="product-dropdown">
+                <Dropdown titre='Description' description={product.description} />
+                <Dropdown titre='Equipements' description={product.equipments} />
+            </div>
     )
 }
 

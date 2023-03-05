@@ -17,17 +17,17 @@ body {
 
 .gallery {
     margin: 5%;
+    width: 90%;
     background: #F7F7F7;
     border-radius: 25px;
 }
 
 .card-container {
-    width: 1000px;
+    width: 100%;
     padding: 3%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
+    display: FLEX;
+    flex-wrap: wrap;
+    justify-content: space-around;
     grid-row-gap: 30px;
 }
 

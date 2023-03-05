@@ -1,12 +1,11 @@
 .carroussel {
-    width: 90%;
+    width: 75%;
     height: 400px;
     background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 20px;
     border-radius: 20px;
 }
@@ -150,6 +149,15 @@
     font-style: normal;
 }
 
+.dropdownProduct {
+    width: 100%;
+    display: flex;
+}
+
+.dropdownProduct .dropdown {
+    display: flex;
+}
+
 @media screen and (max-width: 992px) {
     .carroussel {
         width: 90%;
@@ -167,7 +175,6 @@
     }
 
     .host-ranked-container {
-
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -178,12 +185,6 @@
         top: 0%;
         left: 0%;
         justify-content: flex-start;
-    }
-
-    .header-dropdown {
-        width: 90%;;
-        flex-direction: column;
-        align-items: center;
     }
 
     .collapse-card {

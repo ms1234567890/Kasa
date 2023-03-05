@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import '../assets/css/Dropdown.css'
 import Down from "../assets/images/Down.png"
-import Up from "../assets/images/Up.png"
 
 function Dropdown({titre, description}) {
     /* Crée un Hook d'état */
@@ -12,7 +11,7 @@ function Dropdown({titre, description}) {
             <div className="header-dropdown">
                 <div className="titre-dropdown">{titre}</div>
                 <span className={`arrow-dropdown ${ouvert}`} onClick={() => setOuvert(!ouvert)}>
-                    <img src={Up} alt="Ouvrir cette liste"/>
+                    <img src={Down} alt="Ouvrir cette liste"/>
                 </span>
             </div>
             {
