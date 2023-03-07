@@ -29,6 +29,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     grid-row-gap: 30px;
+    grid-column-gap: 100px;
 }
 
 .card-container a {
