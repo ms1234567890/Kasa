@@ -3,7 +3,8 @@ import '../assets/css/Dropdown.css'
 import Down from "../assets/images/Down.png"
 
 function Dropdown({titre, description}) {
-    /* Crée un Hook d'état */
+   
+    // Création d'un Hook d'état //
     const [ouvert, setOuvert] = useState(false);
 
     return(
@@ -15,7 +16,7 @@ function Dropdown({titre, description}) {
                 </span>
             </div>
             {
-                /* Si le dropdown est à TRUE alors il affichera la description */
+                // Si le dropdown est TRUE, la description s'affiche //
                 ouvert && <div className="description-dropdown">{description}</div>
             }
         </div>

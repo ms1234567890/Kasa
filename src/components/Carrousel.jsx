@@ -5,15 +5,12 @@ import '../assets/css/Product.css'
 import arrowLeft from '../assets/images/Left.png'
 import arrowRight from '../assets/images/Right.png'
 
-
-
 function Carroussel() {
     const { id } = useParams()
     let product = kasa.find(i => i.id === id)
     const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
     function clickLeft () {
-
         if(currentImageIndex === 0) {
             setCurrentImageIndex(product.pictures.length -1)
         } else {
@@ -22,7 +19,6 @@ function Carroussel() {
     }
     
     function clickRight () {
-        
         if(currentImageIndex === product.pictures.length -1) {
             setCurrentImageIndex(0)
         } else {

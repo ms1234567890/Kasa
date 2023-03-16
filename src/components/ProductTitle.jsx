@@ -4,8 +4,8 @@ import '../assets/css/Product.css'
 import ProductTag from './ProductTag'
 import ProductStars from './ProductStars.jsx'
 
-//In the Return, we find the title, the location, the name and the picture of Host//
-//In the end of the function, we find the component ProductStars who's display Stars//
+// Dans le RETURN, on trouve le titre, la location, le nom et la photo du host //
+// A la fin de la fonction, on trouve le composant qui réporte le numéro d'étoiles //
 
 function ProductTitle() {
     const { id } = useParams()

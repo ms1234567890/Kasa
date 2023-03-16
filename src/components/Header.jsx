@@ -9,7 +9,7 @@ function Header() {
       <div className="header">
         <Link to="/"><img src={logo} alt="logo"></img></Link>
         <nav className="navigation">
-          {/* ternary condition to underline the navigation link if we are on the right page */}
+          {/* Vérifier qu'on est sur la bonne page */}
           <Link to="/" className={location.pathname === '/' ? 'underline' : ''}>
             <h2 className="acceuil">Accueil</h2>
           </Link>
@@ -21,4 +21,4 @@ function Header() {
     );
   }
 
-export default Header
+export default Header;

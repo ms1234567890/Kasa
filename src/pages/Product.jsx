@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 function Product() {
   return (
-      <div className="home">
+      <div className="Home">
           <Header />
           <Carrousel />
           <ProductTitle />    
