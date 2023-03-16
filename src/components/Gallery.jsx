@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 
 function Gallery() {
-
     return (
         <div className="gallery">
             <ul className='card-container'>
