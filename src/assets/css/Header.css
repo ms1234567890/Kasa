@@ -44,20 +44,16 @@
 @media screen and (max-width: 992px) {
 
     .header {
-
         width: 90vw;
         justify-content: space-between;
         align-items: center;
     }
 
-
     .navigation {
         justify-content: flex-end;
-
     }
 
     .navigation h2 {
-
         white-space: nowrap;
     }
 }
@@ -65,15 +61,19 @@
 @media screen and (max-width: 483px) {
 
     .header {
-
-        flex-direction: column;
+        max-width: 100%;
+        margin: 20px;
     }
-
+    .header img {
+        height: 47px;
+    }
     .navigation {
+        display: flex;
         justify-content: center;
+        margin-right: 20px;
     }
 
     .navigation h2 {
-        text-align: center;
+        font-size: 3vw;
     }
 }
